@@ -12,7 +12,7 @@ import lombok.Data;
 @Data
 @JsonInclude(Include.NON_NULL)
 @JsonPropertyOrder({ "id", "descricao","ordemExecucao","ativo","instanteCriacao"})
-public class TarefasPostResponseDto {
+public class TarefasDto {
 	
 	private UUID id;
 	private String descricao;
